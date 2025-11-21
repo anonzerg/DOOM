@@ -1,4 +1,4 @@
-// Emacs style mode select   -*- C++ -*- 
+// Emacs style mode select   -*- C++ -*-
 //-----------------------------------------------------------------------------
 //
 // $Id:$
@@ -16,14 +16,11 @@
 //
 // DESCRIPTION:
 //   Menu widget stuff, episode selection and such.
-//    
+//
 //-----------------------------------------------------------------------------
-
 
 #ifndef __M_MENU__
 #define __M_MENU__
-
-
 
 #include "d_event.h"
 
@@ -36,7 +33,6 @@
 // this can resize the view and change game parameters.
 // Does all the real work of the menu interaction.
 boolean M_Responder (event_t *ev);
-
 
 // Called by main loop,
 // only used for menu (skull cursor) animation.
@@ -54,12 +50,7 @@ void M_Init (void);
 // does nothing if menu is already up.
 void M_StartControlPanel (void);
 
-
-
-
-
-
-#endif    
+#endif
 //-----------------------------------------------------------------------------
 //
 // $Log:$

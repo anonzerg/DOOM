@@ -1,4 +1,4 @@
-// Emacs style mode select   -*- C++ -*- 
+// Emacs style mode select   -*- C++ -*-
 //-----------------------------------------------------------------------------
 //
 // $Id:$
@@ -16,17 +16,13 @@
 //
 // DESCRIPTION:
 //
-//    
+//
 //-----------------------------------------------------------------------------
-
 
 #ifndef __M_RANDOM__
 #define __M_RANDOM__
 
-
 #include "doomtype.h"
-
-
 
 // Returns a number from 0 to 255,
 // from a lookup table.
@@ -37,7 +33,6 @@ int P_Random (void);
 
 // Fix randoms for demos.
 void M_ClearRandom (void);
-
 
 #endif
 //-----------------------------------------------------------------------------
