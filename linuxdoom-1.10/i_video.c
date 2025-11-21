@@ -44,7 +44,7 @@ int XShmGetEventBase (Display *dpy); // problems with g++?
 #include <sys/time.h>
 #include <sys/types.h>
 
-#include <errnos.h>
+#include <errno.h>
 #include <netinet/in.h>
 #include <signal.h>
 
