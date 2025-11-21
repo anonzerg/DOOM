@@ -37,6 +37,7 @@ static const char rcsid[] = "$Id: i_unix.c,v 1.5 1997/02/03 22:45:10 b1 Exp $";
 #endif
 
 #include <fcntl.h>
+#include <sys/errno.h>
 #include <sys/ioctl.h>
 #include <unistd.h>
 
@@ -151,7 +152,7 @@ void
 myioctl (int fd, int command, int *arg)
 {
   int rc;
-  extern int errno;
+  int errno;
 
   rc = ioctl (fd, command, arg);
   if (rc < 0)
